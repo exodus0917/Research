@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Jung/ClionProjects/Research/Broker/broker_main.c
+stdio.h
+-
+string.h
+-
+zmq.h
+-
+czmq.h
+-
+unistd.h
+-
+assert.h
+-
+
